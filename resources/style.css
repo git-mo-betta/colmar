@@ -1,0 +1,68 @@
+
+
+
+/*The Navigation Bar */
+
+nav {
+display: flex;
+height: 64px;
+border: red 2px solid;
+justify-content: space-between;
+
+
+}
+
+.nav-box-1 {
+
+    
+    
+    display: flex;
+    margin-left: 24px;
+    
+}
+
+.nav-box-1 span {
+
+    font-size: 32px;
+    
+    margin: auto;
+    
+    
+}
+
+.nav-box-1 img {
+
+    height: 50px;
+    
+    margin: auto;
+}
+
+
+.nav-box-2 {
+
+    
+    
+    display: flex;
+    margin-right: 24px;
+    
+
+}
+
+
+.nav-box-2 ul {
+    margin: auto;
+
+}
+
+
+.nav-box-2 li {
+
+        display: inline;
+        margin: 16px;
+        font-weight: bold;
+
+}
+
+/* Banner Section */ 
+
+
