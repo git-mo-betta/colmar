@@ -65,4 +65,58 @@ justify-content: space-between;
 
 /* Banner Section */ 
 
+.banner-daddy {
+width: 100%;
+background-color: blanchedalmond;
+height: auto;
+display: flex;
 
+}
+
+
+.banner-photo-box {
+    margin: 32px 24px;
+
+
+
+}
+
+.banner-photo-box img {
+
+    height: 100%;
+    width: 100%;
+}
+
+.learn-something-box {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+
+
+}
+
+.learn-something-box h1 {
+    font-size: 85px;
+    
+    
+}
+
+.learn-something-box span {
+
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.button {
+
+    margin: 24px;
+    background-color: darkgray;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+
+
+
+}
