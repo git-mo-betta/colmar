@@ -168,6 +168,7 @@ border-left: 1px lightgray solid;
 
     display: flex;
     margin: 16px;
+    border: red 2px solid;
 }
 
 
@@ -177,25 +178,23 @@ border-left: 1px lightgray solid;
 }
 
 .content {
-padding: 8px 15px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-flex-grow: 1;
+ display: flex;
+ flex-direction: column;
+ align-self: center;
+ }
 
-
-
-
-}
 
 .content h2 {
 
     margin: auto 5px;
+    border: magenta 2px solid;
+    
 }
           
 .content span {
 
-margin: auto 5px;    
+margin: auto 5px; 
+border: blue 2px solid;   
     
 }
 
@@ -203,4 +202,64 @@ margin: auto 5px;
 
 margin: auto 5px;
 
+
+}
+
+
+
+/* Thesis Exhibit Section */
+
+.bottom-daddy {
+
+    text-align: center;
+    border: red 2px solid;
+
+
+}
+
+.bottom-daddy h1 {
+
+    margin: 32px auto;
+}
+
+
+.flexbox {
+
+    display: flex;
+}
+
+.left-box {
+
+    display: flex;
+    flex-direction: column;
+    border: 2px magenta solid;
+    flex-grow: 5;
+}
+
+
+.videobox {
+
+    height: auto;
+    width: auto;
+
+}
+
+.videobox video {
+
+    height: 100%;
+    width: 100%;
+}
+
+.right-box {
+
+    display: flex;
+    flex-direction: column;
+    border: indianred 2px solid;
+    flex-grow: 1;
+}
+
+
+.side-content {
+
+    display: flex;
 }
