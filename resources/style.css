@@ -233,7 +233,8 @@ margin: auto 5px;
     display: flex;
     flex-direction: column;
     border: 2px magenta solid;
-    flex-grow: 5;
+    margin-right: 24px;
+    width: 60%;
 }
 
 
@@ -255,11 +256,38 @@ margin: auto 5px;
     display: flex;
     flex-direction: column;
     border: indianred 2px solid;
-    flex-grow: 1;
+    width: 40%;
 }
 
 
-.side-content {
+.side-content-1 {
 
     display: flex;
+    background-color: lightgray;
+}
+
+
+.side-content-1 img {
+
+    height: auto;
+    width: 35%;
+    padding: 16px;
+
+
+}
+
+
+.side-content-2 {
+
+    display: flex;
+
+}
+
+.side-content-2 img {
+
+    height: auto;
+    width: 35%;
+    padding: 16px;
+
+
 }
